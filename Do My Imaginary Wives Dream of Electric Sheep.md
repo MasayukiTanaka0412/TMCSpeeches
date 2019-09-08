@@ -11,7 +11,7 @@
 ## Do My Imaginary Wives Dream of Electric Sheep?
 
 ---
-[アンドロイドは電気羊の夢を見るか? ](https://www.amazon.co.jp/dp/4150102295
+## [アンドロイドは電気羊の夢を見るか? ](https://www.amazon.co.jp/dp/4150102295)
 
 This is a famous Sci-Fi novel "Do Androids Dream of Electric Sheep?"  
 The theme is "How we can distinguish human from androids"  
