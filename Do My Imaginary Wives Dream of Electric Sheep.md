@@ -71,3 +71,8 @@ Now we got a tangible body for androids
 - Deep Learning
 
 ---
+## Do My Imagenary Wives Evaluate a Prepared Speech?
+### Yes!
+#### [PowerPoints gets an AI Presentation Coach](https://techcrunch.com/2019/06/18/microsofts-powerpoint-will-use-ai-to-make-you-a-better-public-speaker/)
+### Technology used
+- Deep Learning
