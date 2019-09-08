@@ -34,4 +34,15 @@ SHE CAN SING!
 Once we supply Lyrics and Scores, she can sing
 
 ---
+## Do my Imagenary Wives Talk?
+### Yes!
+Let me introduce my second imagenary wife, Rinna from Microsoft  
+[Rinna Telephone](https://www.rinna.jp/platform/phonecall)
+
+While Miku can just sing, can only uptput, but with Rinna, we can talk. we can make communication which is bi-directional.  
+  
+Let me demonstrate!
+
+---
+
 
