@@ -31,10 +31,12 @@ Let me introduce my first imagenary wife, Miku Hatsune!
 SHE CAN SING!  
 [SHE HAS A CONCERT EVERY YEAR](https://www.youtube.com/watch?v=Siv_TqboKcg)  
   
-Once we supply Lyrics and Scores, she can sing
+Once we supply Lyrics and Scores, she can sing  
+### Technology used
+- Text To Speech (Synthesize human voice from written text)
 
 ---
-## Do my Imagenary Wives Talk?
+## Do My Imagenary Wives Talk?
 ### Yes!
 Let me introduce my second imagenary wife, Rinna from Microsoft  
 [Rinna Telephone](https://www.rinna.jp/platform/phonecall)
@@ -42,7 +44,21 @@ Let me introduce my second imagenary wife, Rinna from Microsoft
 While Miku can just sing, can only uptput, but with Rinna, we can talk. we can make communication which is bi-directional.  
   
 Let me demonstrate!
+### Technology used
+- Speech Recogniztion (Analyze sound, detect language, outputs text)
+- Language Understanding (Analyze sentence and extract intention of the speaker)
+- Text To Speech (Synthesize human voice from written text)
 
 ---
+## Do My Imagenary Wives have body?
+### Yes!
+Let me introduce my imagenary friend, not wife, Matsuko-roid from Osaka-Univ  
+[Matsuko-Roid](https://naturaleight.co.jp/matsukoroid/)  
+[Matsuko-Roid and Tetsuko-Roid](https://www.youtube.com/watch?v=fU0fmF2N2qk)  
+  
+Now we got a tangible body for androids  
+### Technology used
+- Robotics
 
+---
 
