@@ -76,3 +76,20 @@ Now we got a tangible body for androids
 #### [PowerPoints gets an AI Presentation Coach](https://techcrunch.com/2019/06/18/microsofts-powerpoint-will-use-ai-to-make-you-a-better-public-speaker/)
 ### Technology used
 - Deep Learning
+
+---
+Now, we have almost all required parts for android to mimic human  
+## Then what makes human aprt from androids?
+In the stroy of "Do Androids Dream of Electric Sheep?" The hero's job is to find illegal androids and process it.  
+"Process" here means "Kill"  
+I really want to know "The difference between human and android", not so that be processed by him.
+In the story, it was said "The difference is whether thay have 'empathy or not'"  
+  
+I might be an android.
+
+The story was written in half century ago, what was "Fiction" is becoming real.  
+But its suggestion, "Empathy" makes us apart from androids is still Valid.  
+
+Technology is changing so fast, day by day.
+But what is the most important thing as human doesn't change
+"Empathy"
