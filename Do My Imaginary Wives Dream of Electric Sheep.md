@@ -1,5 +1,5 @@
 # Speech Info
-## CC manual #8 Get Comfortable With Your Visual Aids      TM M Tanaka                                                       
+## CC manual #8 Get Comfortable With Your Visual Aids                                                     
 ## Title: “Do My Imaginary Wives Dream of Electric Sheep?”
 ## Objectives:
 - *Select visual aids that are appropriate for your message and the audience.
