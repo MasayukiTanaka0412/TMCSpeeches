@@ -11,7 +11,7 @@
 ## Do My Imaginary Wives Dream of Electric Sheep?
 
 ---
-## [アンドロイドは電気羊の夢を見るか? ](https://www.amazon.co.jp/dp/4150102295)
+## [Do Androids Dream of Electric Sheep? ](https://www.amazon.co.jp/dp/4150102295)
 
 This is a famous Sci-Fi novel "Do Androids Dream of Electric Sheep?"  
 The theme is "How we can distinguish human from androids"  
@@ -50,7 +50,7 @@ Let me demonstrate!
 - Text To Speech (Synthesize human voice from written text)
 
 ---
-## Do My Imagenary Wives have body?
+## Do My Imagenary Friends have body?
 ### Yes!
 Let me introduce my imagenary friend, not wife, Matsuko-roid from Osaka-Univ  
 [Matsuko-Roid](https://naturaleight.co.jp/matsukoroid/)  
@@ -61,4 +61,13 @@ Now we got a tangible body for androids
 - Robotics
 
 ---
+## Do My Imagenary Wives have creativity?
+### Yes!
+#### AI can draw picture
+[makegirls.moe](https://make.girls.moe/#/)
+#### AI can compose music
+[MuseNet](https://openai.com/blog/musenet/)
+### Technology used
+- Deep Learning
 
+---
