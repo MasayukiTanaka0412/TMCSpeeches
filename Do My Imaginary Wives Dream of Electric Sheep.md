@@ -19,8 +19,9 @@ The story was written in 1968.
 Half century passed since then, I would like to check the current android situation in real world.  
 "Can we distinguish human from androids?"  
 If "yes", what makes human apart from androids  
-
+  
 I will tell the story with my imagenary wives
+
 ---
 ## Do My Imaginary Wives Speak?
 ### Yes!, even more
@@ -29,7 +30,8 @@ Let me introduce my first imagenary wife, Miku Hatsune!
   
 SHE CAN SING!  
 [SHE HAS A CONCERT EVERY YEAR](https://www.youtube.com/watch?v=Siv_TqboKcg)  
-
+  
 Once we supply Lyrics and Scores, she can sing
+
 ---
 
