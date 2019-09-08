@@ -20,5 +20,16 @@ Half century passed since then, I would like to check the current android situat
 "Can we distinguish human from androids?"  
 If "yes", what makes human apart from androids  
 
+I will tell the story with my imagenary wives
+---
+## Do My Imaginary Wives Speak?
+### Yes!, even more
+Let me introduce my first imagenary wife, Miku Hatsune!  
+[Miku Hatsune](https://ec.crypton.co.jp/pages/prod/vocaloid/cv01)  
+  
+SHE CAN SING!  
+[SHE HAS A CONCERT EVERY YEAR](https://www.youtube.com/watch?v=Siv_TqboKcg)  
+
+Once we supply Lyrics and Scores, she can sing
 ---
 
