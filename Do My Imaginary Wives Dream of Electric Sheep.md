@@ -1,10 +1,11 @@
 # Speech Info
-## CC manual #8 Get Comfortable With Your Visual Aids                                                     
+## PATHWAYS LEVEL5 PREPARE TO SPEAK PROFESSIONALLY                                                     
 ## Title: “Do My Imaginary Wives Dream of Electric Sheep?”
-## Objectives:
-- *Select visual aids that are appropriate for your message and the audience.
-- *Use visual aids correctly with ease and confidence.
-## Time: 5-7 minutes
+## Purpose: 
+The purpose of this project is to practice developing and presenting a longer speech.
+## Overview: 
+Write and present an 18- to 22-minute keynote-style speech. Exemplify the point of view or message you would convey as a professional-level speaker. You may choose to use visual aids if they fit your speech and your style. Your speech may be humorous, informational, or any style that appeals to you and supports your speech content. If you receive advance approval from the vice president education, you may present your speech to a non-Toastmasters group.
+## Time: 18-22 minutes
 
 ---
 
