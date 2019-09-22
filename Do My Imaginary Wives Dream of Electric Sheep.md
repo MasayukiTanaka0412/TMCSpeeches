@@ -90,7 +90,12 @@ I might be an android.
 
 The story was written in half century ago, what was "Fiction" is becoming real.  
 But its suggestion, "Empathy" makes us apart from androids is still Valid.  
-
 Technology is changing so fast, day by day.
 But what is the most important thing as human doesn't change
 "Empathy"
+
+---
+
+## Emapthy
+[ハッカーと画家 by Paul Graham p35](https://www.amazon.co.jp/dp/4274065979/)  
+> 共感能力は、おそらく良いハッカーと偉大なハッカーの、たったひとつの最も重要な違いだろう。
