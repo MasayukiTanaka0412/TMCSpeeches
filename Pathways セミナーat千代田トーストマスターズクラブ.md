@@ -85,3 +85,58 @@
 1. Click Continue
   
 **DEMO**
+  
+---
+  
+# どうやって始めるの？
+  
+**DEMO**しながら説明します
+  
+## まずは国際本部にログイン
+1. [Toastmasters International](https://www.toastmasters.org/login) のサイトにログイン
+    - 初めての場合、パスワードを忘れた場合は[Forgot Password?](https://www.toastmasters.org/forgot-password) をクリックします
+    - Email アドレスを入力し、"Submit"をクリックします
+    - パスワード再設定用のメールが送られてきますので、指示にしたがってください
+  
+## Pathをスタート！
+  
+1. 上部のメニューの [Pathways -> Go to Basecamp](https://www.toastmasters.org/start-pathways) をクリックします
+1. "Access my path through Base Camp"の"Go to Base Camp"を選択します
+1. Base Camp画面が開きます
+1. "Education Transcript - Access My Path"をクリックします
+1. 選択したPathが表示されるので、Activateをクリックします
+  
+## スピーチ当日までにやること
+  
+1. "Open Curriculum"をクリックします
+1. 取り組むプロジェクトを選択します
+    - Level 1 から順番に取り組むことをお勧めします
+    - 自分のレベルより先のプロジェクトにに取り組むこともできます
+    - しかし、下位のレベルを完了しない限り、上位のレベルの完了はできません
+        - 例) Level 2 のプロジェクトをすべて完了したとしても、Level 1が完了しない限りLevel 2 の完了は認定されません
+1. 取り組むプロジェクトを"Activate"してから"Launch"します
+1. プロジェクトが表示されますので、順にe-learningで学習を進めてください
+1. あるいは、プロジェクトの内容をPDFで一括ダウンロードすることもできます
+    - "別のセクションへ移動"で”あなたの評価”ページへ移動
+    - "マイプロジェクトを印刷"をクリックするとPDFがダウンロードできます。
+1. プロジェクトの内容を良く確認し、スピーチを作成してください
+1. "あなたの評価"ページの"論評リソース"をクリックし、論評シートをダウンロードし、論評者に送付してください
+1. TMOEに次の情報を伝えてください
+    - あなたの選んだPath (Dynamic Leadership, Presentation Masteryなど)
+    - プロジェクト (Ice breaker, Evaluaton and Feedbackなど)
+    - "あなたの課題"ページに記載されている「目的」と「概要」
+    - スピーチ時間
+    - スピーチタイトル
+  
+## スピーチ達成後にやること
+  
+1. 「スキルの評価（課題終了後）」ページのアセスメントを実施します
+1. 最後のページまで移動し「おめでとうございます！」が表示されることを完了します
+1. これでプロジェクトは完了です。
+　　
+## Level完了後にやること
+  
+1. Level X Completion を "Activate"する
+1. Level X Completion を "Mark Complete"する
+1. BaseCamp Manager (President, VPE, Secretary)に通知が届きます
+1. BaseCamp Managerが承認するとLevelの完了が認定されます
