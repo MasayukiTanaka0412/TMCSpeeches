@@ -4,7 +4,7 @@
   
 [Steve Jobs' 2005 Stanford Commencement Address https://www.kiboueigo.com/steve-jobs-2005-stanford-commencement-address?ref=category](https://www.kiboueigo.com/steve-jobs-2005-stanford-commencement-address?ref=category)
   
-Let's read it a lound from "My third story is about death." to the end.
+Let's read it a loud from "**My third story is about death.**" to the end.
   
 ## Content
   
