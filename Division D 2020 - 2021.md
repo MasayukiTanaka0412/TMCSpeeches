@@ -1,5 +1,16 @@
 # Division D 2020 - 2021
   
+## Area Directors
+  
+|Area|Director|email|
+|----|--------|-----|
+|41|野間康隆|tropicalfish1230@hotmail.com|
+|42|Fumiko Sasaki|belleblue01@gmail.com|
+|43|Seiko Matsumoto|seikomtsmt00@gmail.com|
+|44|Inoue, Mica|avotresante2525@gmail.com|
+|45|Kawahito, Motohiro|tmkawahito@gmail.com|
+|46|Kiyomi Mori|kmoricky@gmail.com|
+  
 ## Clubs
   
 |Area|Club|Club Name|Meeting Dates|
