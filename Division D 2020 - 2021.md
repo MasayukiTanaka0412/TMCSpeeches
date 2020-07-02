@@ -31,7 +31,7 @@
 |41|5814|Tsukuba Toastmasters Club|第1,3 土曜 14時|MAKI TOKIYO tokiyosugama@gmail.com|
 |41|2882535|Tsukuba Wago Toastmasters Club|第1,3 土曜 17時|Kaneko Junko junko88_hello@kkf.biglobe.ne.jp|
 |41|3609756|Tsukuba Starlight Toastmasters Club|第1,3 水曜 19時|Sukhbaatar Baldan www.baagii.www@gmail.com|
-|41|4983032|Mito Toastmasters Club|第2,4 土曜 9時|Suzuki Satoshi info@satrex.jp|
+|41|4983032|Mito Toastmasters Club|第2,4 土曜 9時|papasarumailmobile@gmail.com Masayuki Saruwatari|
 |41||Tsukuba University|**不明**|**不明**|
 ||||
 |42|8446|ICF Chiba Toastmasters Club|毎週 土曜 18時15分|Miyoshi Yasuyuki yasuyuki.miyoshi51@gmail.com|
