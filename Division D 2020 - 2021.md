@@ -56,8 +56,8 @@
 ||||
 |45|1276907|Nihonbashi Century Toastmasters Club|第2,4,5 木曜 19時|Wada Naotake yadanatae0622@gmail.com|
 |45|1080113|Chiyoda Toastmasters Club|第1,3 木曜 19時|Nakamura Mariko nakamurama0205@gmail.com|
-|45|7725085|One Astellas|**不明**|**不明**|
-|45|4743|Sapporo Pioneers Club|第2,4 水曜 19時|**不明**|
+|45|7725085|One Astellas|第1,3 月曜 18時半～20時半|Yuko Ikegami yuko.ikegami@astellas.com|
+|45|4743|Sapporo Pioneers Club|第2,4 水曜 19時|Aki Yoshida yoshida-aki@jcom.home.ne.jp|
 ||||
 |46|3797038|Oval Toastmasters|第1,3 水曜 19時|**不明**|
 |46|1167588|Shimbashi Toastmasters Club|第2,4 火曜 19時|Sato Takuro takusa12@gmail.com|
