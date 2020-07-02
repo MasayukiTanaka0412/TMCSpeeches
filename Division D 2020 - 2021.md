@@ -59,7 +59,7 @@
 |45|7725085|One Astellas|第1,3 月曜 18時半～20時半|Yuko Ikegami yuko.ikegami@astellas.com|
 |45|4743|Sapporo Pioneers Club|第2,4 水曜 19時|Aki Yoshida yoshida-aki@jcom.home.ne.jp|
 ||||
-|46|3797038|Oval Toastmasters|第1,3 水曜 19時|**不明**|
+|46|3797038|Oval Toastmasters|第1,3 水曜 19時|Atsushi Shimamoto shima-shima.5798108@nifty.com|
 |46|1167588|Shimbashi Toastmasters Club|第2,4 火曜 19時|Sato Takuro takusa12@gmail.com|
 |46|2823162|Presentation Toatmasters Club|第1,3 木曜 19時15分|Fudamoto Toji duff.bodom380yardpar4@gmail.com|
 |46|2918401|New Bridge Toastmasters Club|第1,3 火曜 19時|Okamoto Hiroyuki h.okamoto1972@gmail.com|
