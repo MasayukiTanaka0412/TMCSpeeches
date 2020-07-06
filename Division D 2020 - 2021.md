@@ -68,3 +68,33 @@
   
 - www.toastmasters.org の Leadership Central -> District Centralで自身のエリアの情報が確認できます
     - 7/7に説明します
+
+# 第1回ミーティング
+  
+- 2020/7/7 21:00~22:00
+- Zoom
+    - https://zoom.us/j/3687526944?pwd=WHVLRGRnZ3pRNnNPZjE5blBhWVlxUT09
+  
+## 議題
+  
+資料のダウンロードは[こちら](https://1drv.ms/u/s!AqtemAEf9YLcoD9hr5Nlw2A9b2Ro?e=ADm4ID)
+  
+- 自己紹介 2minutes x 7 = 14 minutes
+- Area directorの仕事
+    - Leadership handbook
+    - Leadership centralの使い方
+- District, Divisionスケジュール、イベントホストの確認 15 minutes
+    - 各エリアにてエリアコンテストの主催クラブをCOTの日に開催されるエリアカウンシルにて決定してください
+    - Division コンテストのホストエリアを決定しましょう（ホストクラブはその後エリア内にて決定してください）
+        - 参考(昨年 Area 41, 一昨年 Area 42, その前　Area 44?)
+- COT#1について 20 minutes
+    - Districtから提供された資料の共有
+    - 各セッションの担当者の割り振り
+- Area Director 名刺情報 1 minute
+    - [x] 野間康隆
+    - [ ] Fumiko Sasaki
+    - [x] Seiko Matsumoto
+    - [x] Inoue, Mica
+    - [x] Kawahito, Motohiro
+    - [x] Kiyomi Mori
+- Q&A 10 minutes
