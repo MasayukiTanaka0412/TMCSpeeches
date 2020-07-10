@@ -146,3 +146,49 @@ district76-divisiond@googlegroups.com
 |[ ]|COT担当セッションの内容理解|AD全員|
 |[ ]|Division Contestホストクラブの打診|A43D 松本さん|
 |[ ]|名刺情報|A42D 佐々木さん|
+  
+# 第2回ミーティング
+  
+- 2020/7/14 21:00~22:00
+- Zoom (前回と違います)
+  
+Join Zoom Meeting
+[https://us04web.zoom.us/j/3952316216?pwd=OTNEUXUwM0NEYVExbzg5bDFFTkhzQT09](https://us04web.zoom.us/j/3952316216?pwd=OTNEUXUwM0NEYVExbzg5bDFFTkhzQT09)
+  
+Meeting ID: 395 231 6216
+  
+Password: 3U8QDJ
+
+  
+## 議題
+  
+資料のダウンロードは
+  
+[COT資料](https://1drv.ms/u/s!AqtemAEf9YLcoD9hr5Nlw2A9b2Ro?e=ADm4ID)
+  
+[DEC資料](https://1drv.ms/u/s!AqtemAEf9YLcoDOPHPuRNGG6ZNeN?e=ZT9aB9)
+  
+[その他資料](https://1drv.ms/u/s!AqtemAEf9YLcoFtxbmFNDWKICvWV?e=YALZpc)
+  
+- TODOの確認
+  
+|Done|Description|担当|
+|----|-----------|----|
+|[ ]|COTの日本語版資料はあるか？|田中|
+|[x]|メーリングリストの作成|田中|
+|[x]|Division D Contestの日程確認->2021/3/14|田中|
+|[ ]|COT担当セッションの内容理解|AD全員|
+|[ ]|Division Contestホストクラブの打診|A43D 松本さん|
+|[ ]|名刺情報|A42D 佐々木さん|
+  
+- 経費精算の方法の確認
+- COT時間割の確認
+- 担当セッション以外の時間の役割
+
+## 決定事項
+
+TBD
+  
+## TODO
+  
+TBD
