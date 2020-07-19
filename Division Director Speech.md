@@ -1,6 +1,8 @@
 # Division D Director 選挙スピーチ
 ## 2020- 5-10
   
+ ![rain](sotomawari_ame_man.png)
+ 
 雨にもまけず  
 風にもまけず  
 コロナにもソーシャルディスタンスにもまけぬ  
