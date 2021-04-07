@@ -1,6 +1,7 @@
 # 冴えないAIの育て方
 
 ![Cover](https://cs1.anime.dmkt-sp.jp/anime_kv/img/22/36/2/22362_1_1.png?1551420528000)  
+  
 ---
   
 ## Project
@@ -23,14 +24,14 @@
   
 ## ｢ラバーダック・デバッグ｣とはプログラマーが使う問題解決手法である
   
-[｢ラバーダック・デバッグ｣とはプログラマーが使う問題解決手法である](｢ラバーダック・デバッグ｣とはプログラマーが使う問題解決手法である)
+[https://www.lifehacker.jp/2019/10/solve-your-own-problems-with-the-rubber-duck-trick.html](https://www.lifehacker.jp/2019/10/solve-your-own-problems-with-the-rubber-duck-trick.html)
   
 ---
   
 ## ラバーダック
   
 ![ラバーダック](https://assets.st-note.com/production/uploads/images/30109229/rectangle_large_type_2_0f41b6ee833b5c059715a3a72388d8ca.jpeg?width=800)
-　　
+  
 ---
   
 ## 反応がないのはつまらないので
@@ -51,3 +52,16 @@ AIをつかって、この冴えないラバーダックを育ててみる
   
 ---
   
+## やりたいこと
+  
+---
+  
+## やってみた
+  
+---
+  
+## やってみよう！
+  
+---
+  
+## AI使うのは難しくない！
