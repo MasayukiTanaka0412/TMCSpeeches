@@ -45,6 +45,7 @@ AIをつかって、この冴えないラバーダックを育ててみる
 - Visual Studio Code: 1つ
 - Python: 1つ
 - SpeechRecognition Library: 1つ
+- GPT-3: 1アカウント
 - Azure Speech: 1アカウント
 - Azure WebApp: 1アカウント
 - Flask: 1つ
