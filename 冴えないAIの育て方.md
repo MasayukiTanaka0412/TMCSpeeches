@@ -22,46 +22,41 @@
   
 ---
   
-## ｢ラバーダック・デバッグ｣とはプログラマーが使う問題解決手法である
+## AIとかプログラムとか難しい？
   
-[https://www.lifehacker.jp/2019/10/solve-your-own-problems-with-the-rubber-duck-trick.html](https://www.lifehacker.jp/2019/10/solve-your-own-problems-with-the-rubber-duck-trick.html)
-  
----
-  
-## ラバーダック
-  
-![ラバーダック](https://assets.st-note.com/production/uploads/images/30109229/rectangle_large_type_2_0f41b6ee833b5c059715a3a72388d8ca.jpeg?width=800)
+![困ってる](Komatteru.png)
   
 ---
   
-## 反応がないのはつまらないので
+## そんなことない！
   
-AIをつかって、この冴えないラバーダックを育ててみる
+![困ってる](AI.png)
+  
+---
+  
+## 作ってみよう！
+  
+![キューピー](QP.png)
+  
+---
+  
+## 出来上がったものがこちら
+  
+**Siriっぽい何か**
   
 ---
   
 ## 材料
   
-- Visual Studio Code: 1つ
-- Python: 1つ
-- SpeechRecognition Library: 1つ
-- GPT-3: 1アカウント
-- Azure Speech: 1アカウント
-- Azure WebApp: 1アカウント
-- Flask: 1つ
-- **秘密の隠し味: 1つまみ**
+- Visual Studio Code: 1つ **無料**
+- Python: 1つ **無料**
+- Flask: 1つ **無料**
+- Google Chrome: 1つ **無料**
+- りんなGPT-2モデル: 1つ **無料**
   
 ---
   
-## やりたいこと
-  
----
-  
-## やってみた
-  
----
-  
-## やってみよう！
+## 作り方
   
 ---
   
