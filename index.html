@@ -268,7 +268,7 @@
 
       const openReadableWindow = async (article) => {
         // ユーザー操作の直後（同期的に）ウィンドウを開いてポップアップブロックを回避
-        const win = window.open("", "_blank", "noopener,noreferrer");
+        const win = window.open("", "_blank");
         if (!win) {
           alert("ポップアップがブロックされました。ブラウザの設定を確認してください。");
           return;
