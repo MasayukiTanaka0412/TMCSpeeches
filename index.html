@@ -210,10 +210,6 @@
       };
 
       const articleList = document.getElementById("articleList");
-      const tagDropdown = document.getElementById("tagDropdown");
-      const tagToggle = document.getElementById("tagToggle");
-      const tagPanel = document.getElementById("tagPanel");
-      const selectedTagsEl = document.getElementById("selectedTags");
 
       const parseTags = (value) => {
         if (!value) return [];
@@ -230,33 +226,6 @@
           .replaceAll(">", "&gt;")
           .replaceAll('"', "&quot;")
           .replaceAll("'", "&#39;");
-
-      const renderTagSummary = () => {
-        const tags = [...state.selectedTags];
-        if (tags.length === 0) {
-          selectedTagsEl.innerHTML = '<span class="selected-placeholder">タグで絞り込み（複数選択）</span>';
-          return;
-        }
-        selectedTagsEl.innerHTML = tags.map((t) => `<span class="tag-chip active">${escapeHtml(t)}</span>`).join("");
-      };
-
-      const renderTagOptions = () => {
-        const uniqueTags = [...new Set(state.allArticles.flatMap((a) => a.tags))].sort((a, b) => a.localeCompare(b, "ja"));
-        if (uniqueTags.length === 0) {
-          tagPanel.innerHTML = '<div class="empty">タグはありません。</div>';
-          return;
-        }
-        tagPanel.innerHTML = uniqueTags
-          .map((tag) => {
-            const checked = state.selectedTags.has(tag) ? "checked" : "";
-            return `
-              <label class="tag-option">
-                <input type="checkbox" data-tag="${escapeHtml(tag)}" ${checked} />
-                <span>${escapeHtml(tag)}</span>
-              </label>`;
-          })
-          .join("");
-      };
 
       const openReadableWindow = async (article) => {
         // ユーザー操作の直後（同期的に）ウィンドウを開いてポップアップブロックを回避
@@ -351,7 +320,7 @@
             tags: parseTags((row.tags || "").trim()),
             filename,
             lastModified: (row.lastModified || "").trim(),
-            ext: filename.includes(".") ? \\`.\\${filename.split(".").pop().toLowerCase()}\\` : "",
+            ext: filename.includes(".") ? `.${filename.split(".").pop().toLowerCase()}` : "",
           };
         });
       };
@@ -359,24 +328,11 @@
       const bootstrap = async () => {
         try {
           await loadArticles();
-          renderTagOptions();
-          renderTagSummary();
           renderArticles();
         } catch {
           articleList.innerHTML = '<p class=\"empty\">articles.csv の読み込みに失敗しました。</p>';
         }
       };
-
-      tagPanel.addEventListener("change", (event) => {
-        const input = event.target;
-        if (!(input instanceof HTMLInputElement)) return;
-        const tag = input.dataset.tag;
-        if (!tag) return;
-        if (input.checked) state.selectedTags.add(tag);
-        else state.selectedTags.delete(tag);
-        renderTagSummary();
-        renderArticles();
-      });
 
       window.addEventListener("DOMContentLoaded", bootstrap);
     </script>
