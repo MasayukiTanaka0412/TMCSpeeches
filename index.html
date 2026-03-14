@@ -1,17 +1,403 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMCSpeeches</title>
-</head>
-<body>
-    <!-- Other content here -->
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>また、つまらぬ事を喋ってしまった</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XE1VP5F262"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XE1VP5F262');
+</script>
+    <style>
+      :root {
+        --ui-font: "Inter", system-ui, sans-serif;
+        --body-font: "Merriweather", serif;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --line: #ececec;
+        --chip-bg: #f3f4f6;
+        --chip-on: #111827;
+      }
+      body {
+        margin: 0;
+        background: #fff;
+        color: var(--text);
+      }
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+      .header {
+        margin-bottom: 40px;
+      }
+      .eyebrow,
+      .meta,
+      .tags,
+      .empty,
+      .tag-select,
+      .dropdown {
+        font-family: var(--ui-font);
+      }
+      .eyebrow {
+        color: var(--muted);
+        font-size: 13px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .title {
+        margin: 12px 0 0;
+        font-family: var(--body-font);
+        font-size: clamp(28px, 4vw, 32px);
+        line-height: 1.25;
+        font-weight: 700;
+      }
+      .toolbar {
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .dropdown {
+        width: 100%;
+        max-width: 480px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: #fff;
+      }
+      .dropdown-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px 12px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font: 500 14px var(--ui-font);
+        color: #111827;
+      }
+      .selected-tags {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .selected-placeholder {
+        color: var(--muted);
+      }
+      .caret {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .dropdown-panel {
+        display: none;
+        border-top: 1px solid var(--line);
+        padding: 8px;
+        max-height: 240px;
+        overflow-y: auto;
+      }
+      .dropdown.open .dropdown-panel {
+        display: block;
+      }
+      .tag-option {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      .tag-option:hover {
+        background: #f9fafb;
+      }
+      .article-list {
+        border-top: 1px solid var(--line);
+      }
+      .article {
+        padding: 20px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .article-title {
+        margin: 0 0 8px;
+        font-family: var(--body-font);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.3;
+      }
+      .article-title a {
+        color: #111827;
+        text-decoration: none;
+      }
+      .article-title a:hover {
+        text-decoration: underline;
+      }
+      .summary {
+        margin: 0 0 12px;
+        font-family: var(--body-font);
+        font-size: 16px;
+        line-height: 1.8;
+        color: #374151;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .tag-chip {
+        font-size: 12px;
+        padding: 4px 10px;
+        border-radius: 999px;
+        background: var(--chip-bg);
+        color: #374151;
+      }
+      .tag-chip.active {
+        background: var(--chip-on);
+        color: #fff;
+      }
+      .empty {
+        color: var(--muted);
+        font-size: 14px;
+        padding: 20px 0;
+      }
+      @media (max-width: 640px) {
+        .container {
+          padding-top: 28px;
+        }
+        .article-title {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <div class="eyebrow">Toastmasrers Speech Archive</div>
+        <h1 class="title">また、つまらぬ事を喋ってしまった</h1>
+      </header>
+
+      <section class="toolbar">
+        <div class="dropdown" id="tagDropdown">
+          <button class="dropdown-button" id="tagToggle" type="button" aria-expanded="false" aria-controls="tagPanel">
+            <span class="selected-tags" id="selectedTags"><span class="selected-placeholder">タグで絞り込み（複数選択）</span></span>
+            <span class="caret">▼</span>
+          </button>
+          <div class="dropdown-panel" id="tagPanel"></div>
+        </div>
+      </section>
+
+      <section class="article-list" id="articleList"></section>
+    </main>
+
     <script>
-        // Your JavaScript code here
-        const filename = 'example.txt'; // Example filename
-        const ext = filename.includes(".") ? `.${filename.split(".").pop().toLowerCase()}` : "";
-        console.log(ext);
+      const state = {
+        allArticles: [],
+        selectedTags: new Set(),
+      };
+
+      const articleList = document.getElementById("articleList");
+      const tagDropdown = document.getElementById("tagDropdown");
+      const tagToggle = document.getElementById("tagToggle");
+      const tagPanel = document.getElementById("tagPanel");
+      const selectedTagsEl = document.getElementById("selectedTags");
+
+      const parseTags = (value) => {
+        if (!value) return [];
+        return value
+          .split(/[;,]/)
+          .map((tag) => tag.trim())
+          .filter(Boolean);
+      };
+
+      const escapeHtml = (text = "") =>
+        text
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#39;");
+
+      const renderTagSummary = () => {
+        const tags = [...state.selectedTags];
+        if (tags.length === 0) {
+          selectedTagsEl.innerHTML = '<span class="selected-placeholder">タグで絞り込み（複数選択）</span>';
+          return;
+        }
+        selectedTagsEl.innerHTML = tags.map((t) => `<span class="tag-chip active">${escapeHtml(t)}</span>`).join("");
+      };
+
+      const renderTagOptions = () => {
+        const uniqueTags = [...new Set(state.allArticles.flatMap((a) => a.tags))].sort((a, b) => a.localeCompare(b, "ja"));
+        if (uniqueTags.length === 0) {
+          tagPanel.innerHTML = '<div class="empty">タグはありません。</div>';
+          return;
+        }
+        tagPanel.innerHTML = uniqueTags
+          .map((tag) => {
+            const checked = state.selectedTags.has(tag) ? "checked" : "";
+            return `
+              <label class="tag-option">
+                <input type="checkbox" data-tag="${escapeHtml(tag)}" ${checked} />
+                <span>${escapeHtml(tag)}</span>
+              </label>`;
+          })
+          .join("");
+      };
+
+      const openReadableWindow = async (article) => {
+        // ユーザー操作の直後（同期的に）ウィンドウを開いてポップアップブロックを回避
+        const win = window.open("", "_blank", "noopener,noreferrer");
+        if (!win) {
+          alert("ポップアップがブロックされました。ブラウザの設定を確認してください。");
+          return;
+        }
+
+        // ローディング表示
+        win.document.write(`<!doctype html><html><head><meta charset="UTF-8">
+<title>読み込み中…</title></head>
+<body><p style="font-family:sans-serif;padding:40px;">読み込み中…</p></body></html>`);
+
+        try {
+          const response = await fetch(article.filename);
+          if (!response.ok) throw new Error(`Failed to fetch ${article.filename}`);
+          const source = await response.text();
+          const isMarkdown = article.ext === ".md";
+          const bodyHtml = isMarkdown
+            ? DOMPurify.sanitize(marked.parse(source))
+            : `<pre style="white-space: pre-wrap;">${escapeHtml(source)}</pre>`;
+
+          win.document.open();
+          win.document.write(`<!doctype html>\n<html lang="ja">\n<head>\n<meta charset="UTF-8" />\n<meta name="viewport" content="width=device-width, initial-scale=1.0" />\n<title>${escapeHtml(article.title)}</title>\n<link rel="preconnect" href="https://fonts.googleapis.com" />\n<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />\n<style>\nbody { margin:0; background:#fff; color:#1f2937; }\nmain { max-width:700px; margin:40px auto; padding:0 20px; }\nh1 { font-family:"Merriweather", serif; font-size:32px; line-height:1.3; margin-bottom:10px; }\n.meta { font-family:"Inter", system-ui, sans-serif; color:#6b7280; font-size:13px; margin-bottom:24px; }\narticle { font-family:"Merriweather", serif; font-size:18px; line-height:1.8; }\narticle h1, article h2, article h3 { line-height:1.35; margin-top:1.6em; }\narticle ul, article ol { padding-left:1.4em; }\narticle pre { font-family:"Merriweather", serif; font-size:18px; line-height:1.8; }\n</style>\n</head>\n<body>\n<main>\n  <h1>${escapeHtml(article.title)}</h1>\n  <div class="meta">${escapeHtml(article.lastModified)}</div>\n  <article>${bodyHtml}</article>\n</main>\n</body>\n</html>`);
+          win.document.close();
+        } catch {
+          win.document.open();
+          win.document.write(`<!doctype html><html><head><meta charset="UTF-8"></head>\n<body><p style="font-family:sans-serif;padding:40px;color:red;">記事の読み込みに失敗しました。</p></body></html>`);
+          win.document.close();
+        }
+      };
+
+      const renderArticles = () => {
+        const selected = state.selectedTags;
+        const items = state.allArticles.filter((a) => {
+          if (selected.size === 0) return true;
+          return [...selected].every((tag) => a.tags.includes(tag));
+        });
+
+        if (items.length === 0) {
+          articleList.innerHTML = '<p class="empty">条件に一致する記事がありません。</p>';\n            return;
+        }
+
+        articleList.innerHTML = items
+          .map((article, i) => {
+            const tagsHtml = article.tags.length
+              ? `<div class="tags">${article.tags.map((tag) => `<span class="tag-chip">${escapeHtml(tag)}</span>`).join("")}</div>`
+              : "";
+            return `
+              <article class="article">
+                <h2 class="article-title"><a href="#" data-index="${i}">${escapeHtml(article.title || article.filename)}</a></h2>
+                <p class="summary">${escapeHtml(article.summary || "")}</p>
+                <div class="meta">
+                  <span>${escapeHtml(article.lastModified || "")}</span>
+                  ${tagsHtml}
+                </div>
+              </article>`;
+          })
+          .join("");
+
+        articleList.querySelectorAll("a[data-index]").forEach((link) => {
+          link.addEventListener("click", (e) => {
+            e.preventDefault();
+            const idx = Number(link.dataset.index);
+            const article = items[idx];
+            if (!article) return;
+
+            if (article.ext === ".md" || article.ext === ".txt") {
+              openReadableWindow(article);
+            } else {
+              const a = document.createElement("a");
+              a.href = article.filename;
+              a.download = "";
+              a.click();
+            }
+          });
+        });
+      };
+
+      const loadArticles = async () => {
+        const response = await fetch("articles.csv", { cache: "no-store" });
+        if (!response.ok) throw new Error("articles.csv load error");
+        const text = await response.text();
+        const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
+        state.allArticles = parsed.data.map((row) => {
+          const filename = (row.filename || "").trim();
+          return {
+            title: (row.title || "").trim(),
+            summary: (row.summary || "").trim(),
+            tags: parseTags((row.tags || "").trim()),
+            filename,
+            lastModified: (row.lastModified || "").trim(),
+            ext: filename.includes(".") ? `.${filename.split(".").pop().toLowerCase()}` : "",
+          };
+        });
+      };
+
+      const bootstrap = async () => {
+        try {
+          await loadArticles();
+          renderTagOptions();
+          renderTagSummary();
+          renderArticles();
+        } catch {
+          articleList.innerHTML = '<p class="empty">articles.csv の読み込みに失敗しました。</p>';
+        }
+      };
+
+      tagToggle.addEventListener("click", () => {
+        const isOpen = tagDropdown.classList.toggle("open");
+        tagToggle.setAttribute("aria-expanded", String(isOpen));
+      });
+
+      document.addEventListener("click", (event) => {
+        if (!tagDropdown.contains(event.target)) {
+          tagDropdown.classList.remove("open");
+          tagToggle.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      tagPanel.addEventListener("change", (event) => {
+        const input = event.target;
+        if (!(input instanceof HTMLInputElement)) return;
+        const tag = input.dataset.tag;
+        if (!tag) return;
+        if (input.checked) state.selectedTags.add(tag);
+        else state.selectedTags.delete(tag);
+        renderTagSummary();
+        renderArticles();
+      });
+
+      window.addEventListener("DOMContentLoaded", bootstrap);
     </script>
-</body>
+  </body>
 </html>
