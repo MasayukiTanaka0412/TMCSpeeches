@@ -366,17 +366,6 @@
           articleList.innerHTML = '<p class="empty">articles.csv の読み込みに失敗しました。</p>';
         }
       };
-
-      tagToggle.addEventListener("click", () => {
-        const isOpen = tagDropdown.classList.toggle("open");
-        tagToggle.setAttribute("aria-expanded", String(isOpen));
-      });
-
-      document.addEventListener("click", (event) => {
-        if (!tagDropdown.contains(event.target)) {
-          tagDropdown.classList.remove("open");
-          tagToggle.setAttribute("aria-expanded", "false");
-        }
       });
 
       tagPanel.addEventListener("change", (event) => {
